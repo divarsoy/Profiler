@@ -1,0 +1,39 @@
+{
+  "name": "divarsoy/profiler",
+  "description": "Profiler for timeing tasks in php",
+  "keywords": [
+    "divarsoy",
+    "Profiler"
+  ],
+  "homepage": "https://github.com/divarsoy/profiler",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dag A. Ivarsøy",
+      "email": "dagivarsoy@gmail.com",
+      "homepage": "https://ivarsoysolutions.co.uk",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php" : ">=5.3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit" : "4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Divarsoy\\Profiler\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Divarsoy\\Profiler\\Test\\": "tests"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
