@@ -1,6 +1,6 @@
 <?php
 
-namespace Divarsoy\Profiler;
+namespace Divarsoy;
 
 
 class Profiler
